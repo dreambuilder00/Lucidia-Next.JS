@@ -20,6 +20,7 @@ function Dashboard(props: Props) {
           width: '100%',
           height: 'auto',
         }}
+        priority={true}
       />
       <div className='absolute top-0'>
         <Navbar />

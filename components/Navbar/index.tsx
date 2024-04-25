@@ -4,6 +4,7 @@ import SubtractLine from '@/public/assets/images/subtract.png';
 import Logo from '@/public/assets/images/logo.svg';
 import UpArrow from '@/public/assets/images/uparrow.png';
 import ConnectWalletBtn from '@/public/assets/images/connect-wallet-btn.svg';
+import { BaiJamjuree600 } from '@/public/assets/fonts';
 
 interface Props {}
 
@@ -16,7 +17,7 @@ function Navbar(props: Props) {
         src={SubtractLine}
         alt='Subtract Line'
       />
-      <div className='absolute top-0 w-full h-full'>
+      <div className={`absolute top-0 w-full h-full ${BaiJamjuree600.className}`}>
         <div className='w-9/12 h-full mx-auto'>
           <div className='max-h-[80%] flex justify-between items-center top-0'>
             <Image

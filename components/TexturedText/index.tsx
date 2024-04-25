@@ -23,7 +23,7 @@ function TexturedText(props: Props) {
       className={className}
     >
       {
-        texts.map(text => <>{text}<br/></>)
+        texts.map((text, index) => <span key={index}>{text}<br/></span>)
       }
     </div>
   )
